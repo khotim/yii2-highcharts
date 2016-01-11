@@ -90,8 +90,6 @@ class Highcharts extends \yii\base\Widget
     protected function registerClientOptions()
     {
         if ($this->clientOptions !== false) {
-            $options = Json::htmlEncode($this->clientOptions);
-            
             if ($this->chartType == self::TYPE_HIGHSTOCK) {
                 $constructor = 'StockChart';
             } else {
