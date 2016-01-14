@@ -29,8 +29,8 @@ Usage
 -----
 Insert the following code into a view file (using [this sample](http://www.highcharts.com/docs/getting-started/your-first-chart)).
 ```php
-<?= khotim\highcharts\Highcharts::widget([
-    'chartType' => Highcharts::TYPE_HIGHCHARTS,
+<?= \khotim\highcharts\Highcharts::widget([
+    'chartType' => \khotim\highcharts\Highcharts::TYPE_HIGHCHARTS,
     'options' => [
         'id' => 'myChart'
     ],
@@ -73,6 +73,6 @@ TYPE_HIGHMAPS   &nbsp;|   3   &nbsp;| Chart type Highmaps.
 ###Public Properties
 Property       &nbsp;|  Type   &nbsp;| Description
 :--------------------|:-------------:|:-----------
-$chartType     &nbsp;| integer &nbsp;| Specifies type of chart to be rendered. Defaults to `Highcharts::TYPE_HIGHCHARTS`.
+$chartType     &nbsp;| integer &nbsp;| Specifies type of chart to be rendered. Defaults to `self::TYPE_HIGHCHARTS`.
 $options       &nbsp;|  array  &nbsp;| The HTML attributes for the widget container tag. The "tag" element specifies the tag name of the container element and defaults to "div".
 $clientOptions &nbsp;|  array  &nbsp;| The options for the underlying Highcharts library. Refers to [this page](http://api.highcharts.com/) for more information.
