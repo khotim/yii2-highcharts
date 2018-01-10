@@ -63,14 +63,14 @@ Insert the following code into a view file (using [this sample](http://www.highc
 ]) ?>
 ```
 ------------
-###Constants
+### Constants
 Constant        &nbsp;| Value &nbsp;| Description
 :---------------------|:-----------:|:-----------
 TYPE_HIGHCHARTS &nbsp;|   1   &nbsp;| Chart type Highcharts.
 TYPE_HIGHSTOCK  &nbsp;|   2   &nbsp;| Chart type Highstock.
 TYPE_HIGHMAPS   &nbsp;|   3   &nbsp;| Chart type Highmaps.
 
-###Public Properties
+### Public Properties
 Property       &nbsp;|  Type   &nbsp;| Description
 :--------------------|:-------------:|:-----------
 $chartType     &nbsp;| integer &nbsp;| Specifies type of chart to be rendered. Defaults to `self::TYPE_HIGHCHARTS`.
